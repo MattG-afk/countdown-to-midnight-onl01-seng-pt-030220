@@ -1,16 +1,16 @@
 #write your code here
 
 def countdown(clock)
-  clock = 10 
+  
   while clock >= 0 
   puts "#{clock} SECOND(s)!"
   clock -= 1 
 end
 return "Happy New Year!"
 end
+countdown
 
-def countdown_with_sleep
-  number = 10
+def countdown_with_sleep(number)
   while number >= 0
   puts "#{number} SECOND(S)!"
   sleep(1)
